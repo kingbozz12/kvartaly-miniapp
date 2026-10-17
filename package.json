@@ -1,0 +1,13 @@
+{
+  "name": "kvartaly-telegram-miniapp",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "КВАРТАЛЫ — Telegram Mini App стартовый проект",
+  "scripts": {
+    "dev": "node server.mjs --demo",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
